@@ -12,7 +12,7 @@ RUN npm install
 # Kopeeri ülejäänud rakenduse lähtekood
 
 # Ava port 3000, mida rakendus kasutab
-EXPOSE 3000
+EXPOSE 3001
 
 # Käivita rakendus, kui konteiner stardib
 CMD [ "node", "app.js" ]
